@@ -3,10 +3,7 @@
 C# Registration Part II 
 - Try Catch
 - Regex
-- Multiple Exceptions :
-
-<div id="header" align="center">
-  <img src="https://imgur.com/a/wUaqCwd"/>
-</div>
+- Multiple Exceptions 
+- Refer to this Image >> https://imgur.com/a/wUaqCwd
 
 
