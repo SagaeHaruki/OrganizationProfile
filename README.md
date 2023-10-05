@@ -4,4 +4,9 @@ C# Registration Part II
 - Try Catch
 - Regex
 - Multiple Exceptions :
-![Alt text] (https://imgur.com/a/wUaqCwd)
+
+<div id="header" align="center">
+  <img src="https://imgur.com/a/wUaqCwd"/>
+</div>
+
+
