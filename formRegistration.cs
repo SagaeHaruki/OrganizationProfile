@@ -162,44 +162,34 @@ namespace OrganizationProfile
             {
                 cbGender.Items.Add(ListOfGender[i].ToString());
             }
-
-
         }
         public long StudentNumber(string studNum)
         {
-
             _StudentNo = long.Parse(studNum);
-
             return _StudentNo;
         }
-
         public long ContactNo(string Contacter)
         {
             if (Regex.IsMatch(Contacter, @"^[0-9]{10,11}$"))
             {
                 _ContactNo = long.Parse(Contacter);
             }
-
             return _ContactNo;
         }
-
         public string FullName(string LastName, string FirstName, string MiddleInitial)
         {
             if (Regex.IsMatch(LastName, @"^[a-zA-Z]+$") || Regex.IsMatch(FirstName, @"^[a-zA-Z]+$") || Regex.IsMatch(MiddleInitial, @"^[a-zA-Z]+$"))
             {
                 _FullName = LastName + ", " + FirstName + ", " + MiddleInitial;
             }
-
             return _FullName;
         }
-
         public int Age(string age)
         {
             if (Regex.IsMatch(age, @"^[0-9]{1,3}$"))
             {
                 _Age = Int32.Parse(age);
             }
-
             return _Age;
         }
     }

@@ -17,12 +17,10 @@ namespace OrganizationProfile
         {
             InitializeComponent();
         }
-
         private void btn_submit_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.OK;    
         }
-
         private void formConfirmation_Load(object sender, EventArgs e)
         {
             lblStudentNo.Text = StudentInformationClass.SetStudentNo.ToString();
